@@ -10,15 +10,18 @@ Informar somente espaços no campo "Nome".
 
 ## Comportamento atual
 
-O sistema permite avançar pelas etapas e apresenta "Nome não encontrado" somente na etapa final.
+O sistema permite avançar pelas etapas e apresenta
+"Nome não encontrado" somente na etapa final.
 
 ## Oportunidade de melhoria
 
-Realizar a validação na própria etapa do campo e apresentar uma mensagem orientativa ao usuário.
+Realizar a validação na própria etapa do campo e apresentar
+uma mensagem orientativa ao usuário.
 
 ## Impacto
 
-O usuário precisa avançar pelo fluxo até descobrir que o nome informado não é válido.
+O usuário precisa avançar pelo fluxo até descobrir que o
+nome informado não é válido.
 
 ## Prioridade sugerida
 
