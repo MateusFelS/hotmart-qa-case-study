@@ -50,7 +50,7 @@ defeitos e oportunidades de melhoria na experiência.
 
 ## Documentação
 
-- [Plano de Testes](docs/)
+- [Plano de Testes](docs/plano-de-teste.md)
 - [Casos de Teste](casos-de-teste/)
 - [Bugs Encontrados](bugs/)
 - [Sugestões de Melhoria](melhorias/)
