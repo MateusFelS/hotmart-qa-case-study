@@ -1,27 +1,29 @@
-# Sugestões de Melhoria
+# SM-001 — Validação tardia de nome composto por espaços
 
-## SM-001 — Validação de nome composto somente por espaços
+## Fluxo
 
-**Fluxo:** Cadastro e configuração de produto
+Cadastro e configuração de produto
 
-**Cenário:**
-Ao informar somente espaços no campo "Nome", o sistema permite avançar pelas etapas do cadastro.
+## Cenário
 
-**Comportamento atual:**
-A validação ocorre somente na etapa final, quando o sistema apresenta a mensagem:
+Informar somente espaços no campo "Nome".
 
-> "Nome não encontrado"
+## Comportamento atual
 
-O usuário não é direcionado ao campo que precisa ser corrigido.
+O sistema permite avançar pelas etapas e apresenta "Nome não encontrado" somente na etapa final.
 
-**Comportamento sugerido:**
-Realizar a validação do campo "Nome" na própria etapa em que o dado é informado e impedir o avanço enquanto o valor contiver apenas espaços.
+## Oportunidade de melhoria
 
-Sugere-se também uma mensagem mais específica, por exemplo:
+Realizar a validação na própria etapa do campo e apresentar uma mensagem orientativa ao usuário.
 
-> "Informe um nome válido para o produto."
+## Impacto
 
-**Impacto:**
-A validação antecipada reduziria retrabalho e deixaria mais claro para o usuário qual informação precisa ser corrigida.
+O usuário precisa avançar pelo fluxo até descobrir que o nome informado não é válido.
 
-**Prioridade sugerida:** Média
+## Prioridade sugerida
+
+Média
+
+## Evidência
+
+- [Validação tardia](https://github.com/user-attachments/assets/9d9c6a4b-23d9-4339-b45c-7aca9990c7bf)
