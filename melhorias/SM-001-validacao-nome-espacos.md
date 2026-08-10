@@ -10,18 +10,32 @@ Informar somente espaços no campo "Nome".
 
 ## Comportamento atual
 
-O sistema permite avançar pelas etapas e apresenta
-"Nome não encontrado" somente na etapa final.
+O sistema permite inserir somente espaços no campo "Nome" e avançar
+pelas etapas do cadastro.
+
+A validação ocorre somente na etapa final, quando o sistema apresenta
+a mensagem "Nome não encontrado".
+
+O usuário não é direcionado ao campo "Nome" para realizar a correção.
 
 ## Oportunidade de melhoria
 
-Realizar a validação na própria etapa do campo e apresentar
-uma mensagem orientativa ao usuário.
+Realizar a validação do campo "Nome" na própria etapa em que o dado é
+informado, impedindo o avanço enquanto o campo contiver apenas espaços.
+
+Também seria recomendável apresentar uma mensagem mais específica e
+orientativa, por exemplo:
+
+> "Informe um nome válido para o produto."
 
 ## Impacto
 
-O usuário precisa avançar pelo fluxo até descobrir que o
-nome informado não é válido.
+A validação tardia faz com que o usuário avance por etapas
+desnecessariamente até descobrir que o nome informado não é válido.
+
+Além disso, a mensagem "Nome não encontrado" pode dificultar a
+identificação do problema, pois não indica claramente que o campo
+"Nome" precisa ser corrigido.
 
 ## Prioridade sugerida
 
