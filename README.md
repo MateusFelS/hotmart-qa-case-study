@@ -18,7 +18,6 @@ defeitos e oportunidades de melhoria na experiência.
 
 - Cadastro e configuração de produto
 - Checkout
-- Fluxo pós-compra
 
 ## Fora de escopo
 
